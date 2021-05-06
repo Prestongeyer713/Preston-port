@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
-import Works from './pages/works';
+import Works from './pages/Works';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
+
 
 function Portfolio() {
   const [currentPage, handlePageChange] = useState('Home');
@@ -12,10 +14,12 @@ function Portfolio() {
     switch (currentPage) {
       case 'About':
         return <About />;
-      case 'Blog':
+      case 'Works':
         return <Works />;
       case 'Contact':
         return <Contact />;
+        case 'Resume':
+          return <Resume />
       default:
         return <Home />;
     }
