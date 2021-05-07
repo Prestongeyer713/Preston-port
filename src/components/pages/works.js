@@ -1,36 +1,27 @@
-import React from "react";
+import React from 'react'
+import Project from '../layouts/project'
+import { projects, projectTitle } from '../../profile'
 
-const Works = () => (
-  <div>
-    <h1>Works That I have done in the past</h1>
-    <p>
-      Project 1 Novid: This project was developed to help people find resturaunts that follow
-      cdc guidlines during the pandemic. https://prestongeyer713.github.io/novid/
-    </p>
-    <p>
-      Project 2 Love Monster: This is a fun dating app that helps people connect and talk about shared intrests.
-      it matches people based off user input to determine these matchs. https://lovemonster-dating.herokuapp.com/
-    </p>
-    <p>
-      The Social API: This project was designed to have a social network api fun on insomnia using mongo db.
-      here is a link to my github with a demo video of the application. https://github.com/Prestongeyer713/the-social-api
-    </p>
-    <p>
-      Progress Web Apps: This project was desgined to use progressive web apps to store user input even while offline.
-      Its a budget tracker that stores user data using mongodb again. 
-      heres a link to my github with demo video and link to the heroku app. https://github.com/Prestongeyer713/prog-budget
-    </p>
-    <p>
-      Sleepy Tech Blog: this is a blog site engineered for sleepy web developers to vent there frustrations
-      or to celebrate there breakthroughs. here is a link to my github that has a demo video of site, and a
-      link to the deployed heroku website.
-    </p>
-    <p>
-      Readme Generater: This project uses node.js to craft a custome readme through the command line.
-      I'm proud of this one considering node.js is probably my strongest subject. here is a link to my github
-      that has a demo video of the application. https://github.com/Prestongeyer713/Readme-generator
-    </p>
-  </div>
-);
+const Works = () => {
+    return (
+        <>
+            <div data-aos="zoom-in-up" data-aos-once="true" className="third">
+                <>
+                    <div className="pp-head-line mx-auto text-center">
+                        <h1 id="Projects" className="red-line pp-head">{projectTitle}</h1>
+                    </div>
+                </>
+                <div className="row">
+                {projects && projects.map((x) => 
+                <Project id={x.id} url={x.url} name={x.name} skills={x.skills} description={x.description}/>
+                )}
+                </div>
+            </div>
 
-export default Works;
+        
+    
+        </>
+    )
+}
+
+export default Works
