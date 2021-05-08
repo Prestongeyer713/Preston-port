@@ -17,6 +17,7 @@ const Resume = () => (
     <p>Express</p>
     <p>MySQL/noSQL database</p>
     <p>REST</p>
+    <a href="https://github.com/Prestongeyer713/Resume">Github page that has the pdf of my resume to view</a> 
   </div>
 );
 

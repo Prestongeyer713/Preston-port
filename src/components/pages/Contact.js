@@ -1,14 +1,14 @@
 import React from "react";
 import { contact, contactTitle, social } from '../../profile'
 
-const Contact = () => {
+const contact = () => {
     
   return (
       <div className="parallax">
               <div data-aos="zoom-in-up" data-aos-once="true" className="git-form">
                   <>
               <div className="git-head-div text-center mx-auto">
-                      <h1 id="Contact" className="git-head">{contactTitle}</h1>
+                      <h1 id="contact" className="git-head">{contactTitle}</h1>
               </div>
               </>
               <div className="container">
@@ -48,4 +48,4 @@ const Contact = () => {
   
 }
 
-export default Contact
+export default contact
