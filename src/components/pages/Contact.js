@@ -40,8 +40,9 @@ const Contact = () => {
           </div>
       </div>
           <p>Phone Number: 4079206172</p>
+          <a href="https://www.linkedin.com/in/preston-geyer-96000b201/">Visit My Linkedin</a>
           <p>Email: prestongeyer713@gmail.com</p>
-          <p>Github: prestongeyer713</p>
+          <a href="https://github.com/Prestongeyer713">Visit My Github</a> 
       </div>
   )
   

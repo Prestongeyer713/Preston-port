@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => (
   <div>
-    <h1>Home Page</h1>
+    <h1>Preston For Hire 2.0</h1>
     <p>
       This is a react based portfolio. to showcase my coding skills!! Alot still needs to be done but I am 
       happy with the results so far!!
