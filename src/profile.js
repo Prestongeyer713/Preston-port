@@ -1,13 +1,9 @@
-const contactTitle = "Get in Touch"
+const contactTitle = "Feel Free To Contact Me"
 const contact = {
     pitch: "please feel free to contact me.",
     contactUrl: 'github.com/prestongeyer713'
 }
-const social = {
-    github: 'https://github.com',
-    facebook: 'https://facebook.com',
-    linkedin: 'https://linkedin.com'
-}
+
 
 const projectTitle = "Past Projects"
 const projects = [
@@ -55,4 +51,4 @@ const projects = [
     },
 ]
 
-export {contact, social, contactTitle, projects, projectTitle }
+export {contact, contactTitle, projects, projectTitle }
