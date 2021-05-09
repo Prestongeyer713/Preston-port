@@ -1,7 +1,7 @@
 const contactTitle = "Get in Touch"
 const contact = {
     pitch: "please feel free to contact me.",
-    contactUrl: ''
+    contactUrl: 'github.com/prestongeyer713'
 }
 const social = {
     github: 'https://github.com',

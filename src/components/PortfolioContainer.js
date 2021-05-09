@@ -3,7 +3,7 @@ import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
 import Works from './pages/Works';
-import Contact from './pages/Contact';
+import Contact from './pages/contact';
 import Resume from './pages/Resume';
 
 

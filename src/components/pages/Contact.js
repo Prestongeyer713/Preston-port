@@ -1,7 +1,7 @@
 import React from "react";
 import { contact, contactTitle, social } from '../../profile'
 
-const contact = () => {
+const Contact = () => {
     
   return (
       <div className="parallax">
@@ -43,9 +43,10 @@ const contact = () => {
           <a href="https://www.linkedin.com/in/preston-geyer-96000b201/">Visit My Linkedin</a>
           <p>Email: prestongeyer713@gmail.com</p>
           <a href="https://github.com/Prestongeyer713">Visit My Github</a> 
+          <p id="not-dark" className="Copy"><strong>{contact.copyright}</strong></p>
       </div>
   )
   
 }
 
-export default contact
+export default Contact
